@@ -1,0 +1,103 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Jul 3, 2018 10:58 AM",
+        "testExecutionTime": "20 ms",
+        "testTotalTime": "20 ms",
+        "commandTime": "3286 ms",
+        "hostname": "https://agility-page-3805-dev-ed.cs40.my.salesforce.com",
+        "orgId": "00D540000009LUXEA2",
+        "username": "test-jnud370qyiil@example.com",
+        "testRunId": "7075400000STjoy",
+        "userId": "00554000000zfl3AAA",
+        "testRunCoverage": "100%",
+        "orgWideCoverage": "100%"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v43.0/tooling/sobjects/ApexTestResult/07M54000001Xi47EAC"
+            },
+            "Id": "07M54000001Xi47EAC",
+            "QueueItemId": "709540000006tktAAA",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7075400000STjoyAAD",
+            "MethodName": "testFooCheckSample",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v43.0/tooling/sobjects/ApexClass/01p54000000e9k6AAA"
+                },
+                "Id": "01p54000000e9k6AAA",
+                "Name": "FooTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 20,
+            "FullName": "FooTest.testFooCheckSample"
+        }
+    ],
+    "coverage": {
+        "coverage": [
+            {
+                "id": "01p54000000e9k2AAA",
+                "name": "Foo",
+                "totalLines": 2,
+                "lines": {
+                    "4": 1,
+                    "5": 1
+                },
+                "totalCovered": 2,
+                "coveredPercent": 100
+            }
+        ],
+        "records": [
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v43.0/tooling/sobjects/ApexCodeCoverage/7145400000Gyk7KAAR"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v43.0/tooling/sobjects/ApexClass/01p54000000e9k6AAA"
+                    },
+                    "Id": "01p54000000e9k6AAA",
+                    "Name": "FooTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        5
+                    ],
+                    "uncoveredLines": []
+                },
+                "TestMethodName": "testFooCheckSample",
+                "NumLinesCovered": 2,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v43.0/tooling/sobjects/ApexClass/01p54000000e9k2AAA"
+                    },
+                    "Id": "01p54000000e9k2AAA",
+                    "Name": "Foo"
+                },
+                "NumLinesUncovered": 0
+            }
+        ],
+        "summary": {
+            "totalLines": 2,
+            "coveredLines": 2,
+            "testRunCoverage": "100%",
+            "orgWideCoverage": "100%"
+        }
+    }
+}

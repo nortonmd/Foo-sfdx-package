@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2018-07-03T10:58:46-07:00" hostname="https://agility-page-3805-dev-ed.cs40.my.salesforce.com" tests="1" failures="0"  errors="0"  time="0.02">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="1"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Jul 3, 2018 10:58 AM"/>
+            <property name="testExecutionTime" value="0.02 s"/>
+            <property name="testTotalTime" value="0.02 s"/>
+            <property name="commandTime" value="3.29 s"/>
+            <property name="hostname" value="https://agility-page-3805-dev-ed.cs40.my.salesforce.com"/>
+            <property name="orgId" value="00D540000009LUXEA2"/>
+            <property name="username" value="test-jnud370qyiil@example.com"/>
+            <property name="testRunId" value="7075400000STjoy"/>
+            <property name="userId" value="00554000000zfl3AAA"/>
+            <property name="testRunCoverage" value="100%"/>
+            <property name="orgWideCoverage" value="100%"/>
+        </properties>
+        <testcase name="testFooCheckSample" classname="FooTest" time="0.02">
+        </testcase>
+    </testsuite>
+</testsuites>
